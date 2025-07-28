@@ -1,0 +1,13 @@
+app:
+  name: TestApp5
+  version: 1.5.0
+  environment: production
+
+database:
+  host: db-5.example.com
+  port: 5432
+  name: app_db_5
+
+security:
+  jwt_secret: secret_key_5
+  jwt_expiration: 3600
