@@ -1,0 +1,13 @@
+app:
+  name: TestApp4
+  version: 1.4.0
+  environment: production
+
+database:
+  host: db-4.example.com
+  port: 5432
+  name: app_db_4
+
+security:
+  jwt_secret: secret_key_4
+  jwt_expiration: 3600
